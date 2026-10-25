@@ -1,7 +1,7 @@
 /* SUDOMI 1.0 Service Worker
  * Fast, offline-first caching for the Sudoku experience.
  */
-const VERSION = '1.0.2';   // los idiomas (lang-en/fr/pt/zh) no van aquí: se descarga solo el que se usa
+const VERSION = '1.0.3';   // los idiomas (lang-en/fr/pt/zh) no van aquí: se descarga solo el que se usa
 const CACHE = 'sudomi-v' + VERSION;
 
 const SHELL = [
